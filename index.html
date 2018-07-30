@@ -11,12 +11,13 @@
     <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
     <link rel="stylesheet" href="assets/css/styles.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <main class="page landing-page">
         <section class="clean-block clean-hero" style="background-image:url(&quot;assets/img/pexels-photo-225502.jpeg&quot;);color:rgba(113,86,191,0.85);">
-            <div class="text">
+            <div class="text title-effect">
                 <h2>Web Design, Personal Branding and Data Analysis</h2>
                 <p>A new Approach of Marketing and Business Intelligence<br></p>
             </div>
@@ -98,9 +99,18 @@
             <p>© 2018 Copyright ChriaTin</p>
         </div>
     </footer>
+    <script src="assets/js/scrollreveal.min.js"></script>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/script.min.js"></script>
+
+    <script>
+        window.sr = ScrollReveal();
+        sr.reveal('.tittle-effect', {
+            duration: 2000,
+            origin: 'bottom'
+        })
+    </script>
 </body>
 
 </html>
